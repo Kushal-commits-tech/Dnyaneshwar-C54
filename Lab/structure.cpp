@@ -8,7 +8,6 @@ class item {
 public:
     int getdata(int a, float b); 
     
-    int putdata()
     {
         cout << "Id of item is " << id << "\n";
         cout << "cost of item is " << cost << "\n";
@@ -39,5 +38,10 @@ int main()
     y.putdata();
     
     return 0;
-}
 
+}
+int getdata()
+{
+    cout<<"not part of class";
+    return 0;
+}
