@@ -17,6 +17,7 @@ public:
 };
 
 int item::getdata(int a, float b)
+
 {
     id = a;
     cost = b;

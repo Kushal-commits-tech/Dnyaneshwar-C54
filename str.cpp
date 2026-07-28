@@ -1,29 +1,3 @@
-#include<iostream>
-using namespace std;
-
-class item {
-    int id;
-    float cost;
-    
-public:
-    int getdata(int a, float b); 
-    
-    int putdata()
-    {
-        cout << "Id of item is " << id << "\n";
-        cout << "cost of item is " << cost << "\n";
-        return 0;
-    }
-};
-
-int item::getdata(int a, float b)
-{
-    id = a;
-    cost = b;
-    return 0;
-}
-
-int main()
 {
     // Processing object x
     item x;
